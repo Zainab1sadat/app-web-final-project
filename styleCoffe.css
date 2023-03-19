@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    height:620px;
+    background-image: url("images/c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+section h1{
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+section p{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 10%;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    animation:pani 1s ;
+}
+@keyframes pani {
+    49%{padding-left: 0px;}
+    50%{padding-left: 50px;}
+    
+}
+.nav{
+    background-color: rgba(139, 69, 19, 0.863);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 4px 3px;
+    position:fixed;
+    top: 0px;
+    transition: 1s;
+}
+.nav h2{
+    position: absolute;
+    left: 15px;
+    font-size: 30px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:10px;
+    font-size: large;
+    margin-left:15px;
+}
+.nav a:hover{
+background-color:white;
+color: black; 
+transition: 1s;
+
+}
+section button{
+    background-color: burlywood;
+    position: absolute;
+    font-size: large;
+    width: 200px;
+    left: 10%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+
+}
+section button:hover{
+    background-color: rgb(248, 199, 135);
+    cursor: pointer;
+}
+/* about page css */
+
+main h1{
+    text-align: center;
+    padding-top: 100px;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: cursive;
+    font-style: italic;
+}
+main p{
+    /* font-family:'Times New Roman', Times, serif; */
+    text-align: center;
+    padding-top: 15px;
+    line-height: 20px;
+    font-style: italic;
+    font-size: larger;
+    margin: auto;
+    width: 80%;
+}
+.about-content button{
+    background-color: saddlebrown;
+    margin-top: 25px;
+    color: white;
+    box-shadow: 1px 3px 5px black;
+    border: none;
+    padding: 7px;
+    width: 15%;
+}
+main .flex-image{
+    margin-top:70px;
+}
+main .flexin{
+    justify-content: flex-end;
+    display: flex;
+    gap:10px;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+main .image img{
+    object-fit: cover;
+    width: 200px;
+    height: 320px; 
+    box-shadow: 2px 6px 7px black;
+}
+main .image img:hover{
+    border-radius: 0px 90px 0px 80px;
+    transition: 1s;
+}
+/* footer section css styles */
+footer{
+    background-color: saddlebrown;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer .footer-contact{
+    margin-right: 10%;
+}
+footer .footer-contact ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+footer .footer-contact ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* Order page css styles */
+.order{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top:4%;
+    margin-left: 4%;
+    padding: 30px;
+    gap: 7%;
+}
+.order-image{
+    padding: 20px;
+    box-shadow: 1px 3px 5px black;
+}
+.order-content{
+    padding: 20px;
+}
+.order-content h3{
+    background-color:saddlebrown;
+    color: white;
+    font-family: cursive;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 1px 3px 5px black;
+}
+.order-content ul li{
+    list-style-type: none;
+    font-family: cursive;
+    padding: 5px;
+}
+.order-content ul li:hover{
+    background-color:white;
+    cursor: pointer;
+}
+
+
+
+/* contact page css styles */
+.contact{
+    padding-top:20px ;
+}
+.contact h1{
+    color: black;
+    margin-top: 35PX;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    justify-content: center;
+}
+.contact-form{
+    padding: 25px;
+    background-color: white;
+    text-align: center;
+}
+.input-name{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom:25px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.contact-form button{
+        background-color: black;
+        color: white;
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 50px;
+        box-shadow: 1px 6px 2px gray;
+
+       
+ }
+
